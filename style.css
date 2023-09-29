@@ -25,15 +25,15 @@ footer {
 }
 
 header {
-	background-color: #19357d;
 	color: white;
 	border: none;
-	padding: 5px 5px 5px 5px;
 	text-align: center;
-	width: 30%;
+	width: 40%;
 }
 
 h1 {
+	background-color: #19357d;
+	padding: 5px;
 	font-family: "Source Code Pro", monospace;
 	font-size: 35px;
 }
