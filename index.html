@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="style.css" />
+		<title>Calculator</title>
+	</head>
+	<body>
+		<header>
+			<h1>Calculator</h1>
+		</header>
+		<section class="main">
+			<table>
+				<tr>
+					<td colspan="3">
+						<input type="text" class="result" />
+					</td>
+					<td>
+						<input type="button" value="C" onclick="clr()" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" value="1" onclick="dis('1')" />
+					</td>
+					<td>
+						<input type="button" value="2" onclick="dis('2')" />
+					</td>
+					<td>
+						<input type="button" value="3" onclick="dis('3')" />
+					</td>
+					<td>
+						<input type="button" value="/" onclick="dis('/')" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" value="4" onclick="dis('1')" />
+					</td>
+					<td>
+						<input type="button" value="5" onclick="dis('2')" />
+					</td>
+					<td>
+						<input type="button" value="6" onclick="dis('3')" />
+					</td>
+					<td>
+						<input type="button" value="-" onclick="dis('/')" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" value="7" onclick="dis('1')" />
+					</td>
+					<td>
+						<input type="button" value="8" onclick="dis('2')" />
+					</td>
+					<td>
+						<input type="button" value="9" onclick="dis('3')" />
+					</td>
+					<td>
+						<input type="button" value="+" onclick="dis('/')" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="button" value="." onclick="dis('1')" />
+					</td>
+					<td>
+						<input type="button" value="0" onclick="dis('2')" />
+					</td>
+					<td>
+						<input type="button" value="=" onclick="dis('3')" />
+					</td>
+					<td>
+						<input type="button" value="&nbsp;*&nbsp;" onclick="dis('/')" />
+					</td>
+				</tr>
+			</table>
+		</section>
+		<footer>
+			<div class="footer-sect">
+				<img src="github.svg" />
+				<p><a href="https://devayoola.github.io/">DevAyoola</a></p>
+			</div>
+			<!--div class="footer-sect">
+				<img src="globe.svg" />
+				<p><a href="https://devayoola.github.io/">Github</a></p>
+			</div-->
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
