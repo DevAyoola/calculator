@@ -28,11 +28,10 @@ header {
 	color: white;
 	border: none;
 	text-align: center;
-	width: 40%;
 }
 
 h1 {
-	color: #19357d;
+	background-color: #19357d;
 	padding: 5px;
 	font-family: "Source Code Pro", monospace;
 	font-size: 35px;
